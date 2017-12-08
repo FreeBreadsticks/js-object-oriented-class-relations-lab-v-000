@@ -81,6 +81,7 @@ describe('trips', function() {
 
     it('adds the trip to the store', function() {
       store.trips = []
+      // debugger
       let trip = new Trip()
       expect(store.trips[0]).to.be.instanceof(Trip)
     })
